@@ -53,10 +53,10 @@ public class ConwaysGameOfLifeIteratorTest {
 		
 		X X O O O ... X
 		X X O O O ... X
-		O O O O O O O O
+		O O O O O ... O
 		... 
-		O O O O O O O O
-		X X 0 0 0 0 0 X
+		O O O O O ... O
+		X X 0 0 0 ... X
 	 */
 	@Test
 	public void testNeighborsWrapAroundFull(){
