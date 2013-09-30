@@ -16,7 +16,6 @@ public class ConwaysGameOfLifeTest {
 	
 	@Test
 	public void testGetStateAtPosition(){
-		conwaysGameOfLife.getStateAtPosition(0, 0);
 		assertFalse(conwaysGameOfLife.getStateAtPosition(0, 0));
 	}
 
